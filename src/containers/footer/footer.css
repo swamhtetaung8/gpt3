@@ -1,0 +1,117 @@
+.gpt3_footer {
+  background: #031b34;
+}
+
+.gpt3_footer-heading {
+  margin-block: 60px;
+}
+
+.gpt3_footer-heading h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+  text-align: center;
+  letter-spacing: -0.04em;
+  width: 75%;
+  margin-inline: auto;
+  margin-bottom: 60px;
+}
+
+.gpt3_footer-heading button {
+  padding: 20px 24px;
+  border: 1px solid #ffffff;
+  font-family: var(--font-family);
+  font-size: 18px;
+  background: none;
+  line-height: 21px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-inline: auto;
+  display: block;
+  margin-block: 50px;
+}
+
+.gpt3_footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.gpt3_footer-links p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  margin-block: 1.5rem;
+  color: #ffffff;
+}
+
+.footer-links-logo {
+  flex: 0.7;
+}
+
+.footer-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.footer-links h5 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  margin-bottom: 2.5rem;
+  color: #ffffff;
+}
+
+.footer-links p {
+  cursor: pointer;
+}
+
+.footer-copyright {
+  margin-top: 5rem;
+}
+
+.footer-copyright p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: var(--font-family);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 920px) {
+  .gpt3_footer-heading h1 {
+    font-size: 52px;
+    line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3_footer-links {
+    flex-direction: column;
+  }
+  .gpt3_footer-heading h1 {
+    font-size: 35px;
+    line-height: 45px;
+    width: 100%;
+  }
+  .gpt3_footer-heading button {
+    padding: 15px 18px;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+  }
+  .footer-links {
+    margin-top: 3rem;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .footer-links-logo {
+    text-align: center;
+  }
+}
